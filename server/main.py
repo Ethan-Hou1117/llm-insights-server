@@ -33,8 +33,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # Define a list of origins that should be allowed to make cross-origin requests
 # You can use ["*"] to allow all origins, but it's recommended to be more specific for security reasons
 origins = [
-    "http://localhost:3000",  # Allow requests from a local development server
-    "https://yourfrontenddomain.com",  # Allow requests from your production frontend
+   "*"
 ]
 
 # Add CORSMiddleware to the application instance
