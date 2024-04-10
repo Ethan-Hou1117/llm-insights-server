@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["Ethan_Hou1117 <100500816+Ethan-Hou1117@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.1"
+supabase = "^2.4.1"
+openai = "^1.16.1"
+uvicorn = "^0.29.0"
+poetry-dotenv = "^0.4.0"
+poetry-plugin-dotenv = "^0.8.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
